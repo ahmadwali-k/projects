@@ -1,8 +1,13 @@
+package com.revature;
 
+import java.io.File;
 
 public class University {
 
     public static void main(String[] args) {
+
+        //File newfile = new File("");
+
         System.out.println("Universities\n");
         MSU m = new MSU();
         System.out.println("Name: " + m.getName());

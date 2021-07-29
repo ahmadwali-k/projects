@@ -1,7 +1,8 @@
+package com.revature;
 
 public class MSU extends University {
 
-    private String name = "MSU";
+    private String name = "com.revature.MSU";
     public int faculty = 51;
     public String curriculum = "Computer Science";
     protected double avgGPA = 3.0;
@@ -15,7 +16,7 @@ public class MSU extends University {
         return name;
     }
     public void setName(){
-        this.name = "MSU Denver";
+        this.name = "com.revature.MSU Denver";
     }
 
 }

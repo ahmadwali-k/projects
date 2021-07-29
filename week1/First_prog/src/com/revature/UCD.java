@@ -1,5 +1,7 @@
+package com.revature;
+
 public class UCD {
-    private String name = "UCD";
+    private String name = "com.revature.UCD";
     public int faculty = 51;
     protected double avgGPA = 3.5;
     public String curriculum = "Computer Science";
@@ -15,8 +17,8 @@ public class UCD {
         return name;
     }
     // Setter for private method
-    public void setName(String newName) {
-        this.name = newName;
+    public void setName() {
+        this.name = "new com.revature.UCD";
     }
 
 }
