@@ -1,6 +1,5 @@
 
-
-public class MSU {
+public class MSU extends University {
 
     private String name = "MSU";
     public int faculty = 51;
@@ -9,39 +8,14 @@ public class MSU {
     public float acceptanceRate = 85.66f;
     char avgGrade = 'B';
 
-
-    public String getName() {  //getter
+    public void MSU(String name, int faculty, String curriculum, double avgGPA, float acceptanceRate, char avgGrade) {
+        //super(name, faculty, curriculum, avgGPA, acceptanceRate, avgGrade);
+    }
+    public String getName(){
         return name;
     }
-
-    public void setName() {  //setter
+    public void setName(){
         this.name = "MSU Denver";
     }
 
-    public static void main(String[] args) {
-
-    }
-
 }
-    /* public MSU(String curriculum, float acceptanceRate, String name, int faculty, double avgGPA, char avgGrade){
-         this.acceptanceRate = acceptanceRate;
-         this.avgGPA = avgGPA;
-         this.name = name;
-         this.curriculum = curriculum;
-         this.avgGrade = avgGrade;
-         this.faculty = faculty;
-     }*/
-    class student extends MSU {
-
-        public void student() {
-
-            System.out.println("Info on Metropolitan State University");
-            System.out.println("Acceptance Rate is: ");
-            MSU m = new MSU();
-            System.out.println(m.acceptanceRate);
-
-        }
-
-    }
-
-
